@@ -18,9 +18,9 @@ function sumOfNumbers(arrayOfNumbers) {
   for (let i=0; i<arrayOfNumbers.length; i+=1) {
     sum += arrayOfNumbers[i]
   }
-  console.log("The sum of numbers is: " + sum)
-  //return arrayOfNumbers.length;
   return sum
+  console.log("The sum of numbers is: " + sum)
+  // return arrayOfNumbers.length;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -40,9 +40,9 @@ function countEvenNumbers(arrayOfNumbers) {
       count++;
     }
   }
+    return count
     console.log("The total even numbers is: " + count)
    // return arrayOfNumbers.length;
-    return count
 }
  assignment.countEvenNumbers = countEvenNumbers;
 
